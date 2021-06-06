@@ -514,10 +514,12 @@ main .social {
     main .how-it-works-wrapper .all-steps .arrow img {
       padding-bottom: 20px; }
     main .how-it-works-wrapper .all-steps .arrow-up img {
-      padding-top: 20px; } }
+      padding-top: 20px; }
+    main .how-it-works-wrapper .my-btn {
+      margin-top: 20px; } }
 @media (max-width: 576px) {
   main .client-wrapper {
-    padding: 50px 0; }
+    padding: 30px 0; }
     main .client-wrapper .comment-block {
       display: flex;
       justify-content: flex-start;
