@@ -1,0 +1,82 @@
+main{
+  .price-wrapper{
+    padding: 140px 0 195px;
+    background: #e7edf3;
+    .price-info{
+      text-align: center;
+      h2{
+      @include font3(30px, 900);
+        text-transform: uppercase;
+        color: #394b50;
+      }
+      p{
+        @include font2(16px, 300);
+        color: #394b50;
+      }
+    }
+    .flex-price {
+      @include flex(center, center);
+      flex-wrap: wrap;
+      margin-top: 80px;
+      .price-plan {
+        @include flex(flex-start, center);
+        flex-direction: column;
+        transition: all 0.2s linear;
+        width: 390px;
+        height: 440px;
+        border: 2px solid #d1dae4;
+        padding: 45px 30px;
+        text-transform: uppercase;
+        background: white;
+        color: #a4abb2;
+        p {
+          margin: 0;
+        }
+
+        .name {
+          @include font2(25px, 300);
+        }
+
+        .sum {
+          @include font2(60px, 900);
+          color: #ffbb42;
+          margin: 0;
+          padding: 0;
+        }
+
+        .sum::first-letter {
+          @include font2(30px, 900);
+          vertical-align: 20px;
+        }
+
+        .regular {
+          margin: -17px 0 25px;
+        }
+
+        .line {
+          border: 1px solid #f5f8fa;
+          width: 100%;
+          margin: 8px 0 8px;
+        }
+
+        .my-btn {
+          margin-top: 30px;
+          background-color: #ffbb42;
+          color: white;
+          padding: 6px 15px;
+          border: 1px solid #ffbb42;
+        }
+      }
+
+      .price-plan:hover {
+        transform: scale(1.1, 1.1);
+        background: #709dca;
+        color: white;
+
+        .sum {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+@media (max-width: 646px) {
+  main {
+    .form-wrapper {
+      .bg-col {
+        .form-container {
+          padding: 90px 0 150px;
+          .block-marg{
+            input{
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+    .slide {
+      .laptop-car {
+        width: 320px;
+        height: 170px;
+        margin-top: -150px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  main {
+    .about-us-info {
+      margin-top: 0;
+
+      .container-fluid {
+        .info {
+          background: #ffc155;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+  @media (max-width: 768px), (max-width: 992px){
+  main{
+    .price-wrapper{
+      padding: 50px 0;
+      .price-plan{
+        margin-bottom: 10px;
+      }
+      }
+    }
+  }
+@media (max-width: 768px), (max-width: 992px) {
+main {
+  .how-it-works-wrapper {
+    margin: 20px 0 150px;
+    .all-steps {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 40px;
+      .step {
+        min-width: 100%;
+        padding: 20px 0 20px;
+        .step-info{
+          padding: 50px 0 0;
+        }
+        img {
+          padding: 0;
+        }
+      }
+      .arrow {
+        display: none;
+      }
+      .arrow-up {
+        display: none;
+      }
+    }
+  }
+}
+}
+@media (max-width: 576px) {
+main {
+  .how-it-works-wrapper {
+    padding: 20px 0 0;
+    .all-steps {
+        .step {
+          width: 100%;
+        img {
+          padding: 0;
+        }
+      }
+      .arrow {
+        img {
+          padding-bottom: 20px;
+        }
+      }
+      .arrow-up {
+        img {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+}
+@media(max-width: 576px) {
+  main {
+    .client-wrapper{
+      padding: 50px 0;
+      .comment-block {
+        @include flex(flex-start, center);
+        flex-direction: column;
+      }
+    }
+
+  }
+}
+
+@media(max-width: 576px), (max-width: 768px) {
+  main {
+    .subscribe-wrapper {
+      .form-container {
+        .input-name, .input-email {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 576px), (max-width: 768px){
+  main {
+    .nav-bottom-wrapper {
+      text-align: center;
+      .navbar-navigation {
+        .nav-block {
+          display: flex;
+          justify-content: center;
+            .nav-li:not(:last-child) {
+              padding: 0 0 20px;
+            }
+        }
+      }
+    }
+  }
+}

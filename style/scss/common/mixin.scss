@@ -1,0 +1,22 @@
+@mixin font($font-s, $font-w){
+  font-size: $font-s;
+  font-weight: $font-w;
+  font-family: $font-fam;
+  color: $font-color;
+}
+@mixin font2($font-s, $font-w){
+  font-size: $font-s;
+  font-weight: $font-w;
+  font-family: $font-fam2;
+}
+
+@mixin font3($font-s, $font-w){
+  font-size: $font-s;
+  font-weight: $font-w;
+  font-family: $font-fam3;
+}
+@mixin flex($justify-c, $aling-a){
+  display: flex;
+  justify-content: $justify-c;
+  align-items: $aling-a;
+}

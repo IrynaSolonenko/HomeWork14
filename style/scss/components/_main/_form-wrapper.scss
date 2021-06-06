@@ -1,0 +1,99 @@
+main{
+  .form-wrapper {
+    .bg-col {
+      background-color: #709dca;
+
+      .form-container {
+        padding: 110px 0 347px;
+      }
+
+      .info {
+        text-align: center;
+        color: white;
+        padding-bottom: 35px;
+
+        h1 {
+          text-transform: uppercase;
+          @include font3(35px, 900);
+        }
+
+        p {
+        @include font(16px, 300);
+          color: white;
+        }
+      }
+
+      .btn-style {
+        background-color: #ffbb42;
+        color: white;
+        padding: 6px;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .block-marg {
+        margin-bottom: 85px;
+
+        //input-icon-------------------------------------
+        .input-name{
+          position: relative;
+          input{
+            padding-left: 35px;
+          }
+          svg{
+            position: absolute;
+            left: 20px;
+            top: 12px;
+            color: #6c75a7;
+          }
+        }
+        .input-email{
+          position: relative;
+          input{
+            padding-left: 35px;
+          }
+          svg{
+            position: absolute;
+            left: 20px;
+            top: 12px;
+            color: #6c75a7;
+          }
+        }
+        .input-phone{
+          position: relative;
+          input{
+            padding-left: 35px;
+          }
+          svg{
+            position: absolute;
+            left: 20px;
+            top: 12px;
+            color: #6c75a7;
+          }
+        }
+      }
+    }
+  }
+
+  .laptop-car {
+    width: 645px;
+    height: 343px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -300px;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    top: 70px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #6ebedc;
+  }
+}

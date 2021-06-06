@@ -1,0 +1,38 @@
+main{
+  .nav-bottom-wrapper {
+    .nav-block {
+      border-top: 1px solid #dee3e9;
+      padding: 50px 0 0;
+      display: flex;
+      justify-content: center;
+      .nav-li {
+        text-transform: uppercase;
+        padding-bottom: 22px;
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+    .nav-li:not(:last-child){
+      padding-right: 22px;
+    }
+  .phone-number{
+    @include flex(center, center);
+    flex-direction: row;
+    p{
+      margin: 0;
+      padding: 0;
+      @include font2(23px, 400);
+      padding-left: 5px;
+    }
+  }
+    .social{
+      @include flex(center, center);
+      padding-top: 22px;
+      a:not(:last-child){
+        padding-right: 17px;
+      }
+    }
+
+}
