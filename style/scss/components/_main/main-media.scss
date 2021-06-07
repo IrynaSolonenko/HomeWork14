@@ -127,7 +127,7 @@ main {
   }
 }
 
-@media(max-width: 576px), (max-width: 768px){
+@media(max-width: 576px), (max-width: 768px), (max-width: 992px){
   main {
     .nav-bottom-wrapper {
       text-align: center;

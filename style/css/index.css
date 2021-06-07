@@ -193,7 +193,7 @@ main .about-us-info {
   position: relative; }
   main .about-us-info .image {
     background-image: url("../../images/about-us.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     padding: 0; }
@@ -549,7 +549,7 @@ footer .foot {
 @media (max-width: 576px), (max-width: 768px) {
   main .subscribe-wrapper .form-container .input-name, main .subscribe-wrapper .form-container .input-email {
     margin-bottom: 10px; } }
-@media (max-width: 576px), (max-width: 768px) {
+@media (max-width: 576px), (max-width: 768px), (max-width: 992px) {
   main .nav-bottom-wrapper {
     text-align: center; }
     main .nav-bottom-wrapper .navbar-navigation .nav-block {
