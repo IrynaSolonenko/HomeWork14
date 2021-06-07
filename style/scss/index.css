@@ -77,13 +77,12 @@ header .nav-li:not(:last-child) {
   padding-right: 25px; }
 
 @media (max-width: 576px), (max-width: 768px), (max-width: 992px) {
-  header .navigat {
-    text-align: center; }
-    header .navigat .menu {
-      display: flex;
-      justify-content: center; }
-      header .navigat .menu .nav-li:not(:last-child) {
-        padding: 0 0 20px; } }
+  header navbarToggleExternalContent {
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+    header navbarToggleExternalContent .nav-li:not(:last-child) {
+      padding: 0; } }
 main .form-wrapper .bg-col {
   background-color: #709dca; }
   main .form-wrapper .bg-col .form-container {
